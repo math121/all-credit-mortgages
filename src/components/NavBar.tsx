@@ -11,31 +11,31 @@ export const NavBar = () => {
     <>
       <ScrollRestoration />
       <nav className="bg-dark-green rounded-lg sm:pl-3">
-        <div className="flex items-center justify-between p-2 pr-4">
+        <div className="flex flex-wrap items-center justify-between p-2 pr-4">
           <Link
             to="/"
             className="flex gap-3 items-center no-underline text-white"
           >
             <img
-              className="h-[50px] lg:h-16 py-1"
+              className="h-[40px] sm:h-16 py-1"
               src="/src/assets/logo-symbol.png"
               alt="All Credit Mortgages Logo"
             />
             <div>
-              <p className="font-belleza text-xl my-0 lg:text-2xl">
+              <p className="font-belleza my-0 text-base sm:text-2xl">
                 All Credit Mortgages
               </p>
-              <p className="font-belleza text-[14px] my-0 lg:text-lg">
+              <p className="font-belleza my-0 text-xs sm:text-lg">
                 Breaking Barriers to Homeownership for All
               </p>
             </div>
           </Link>
           <button
-            className="p-2 w-10 h-10 rounded-lg bg-dark-green border-0 cursor-pointer text-white hover:bg-light-green lg:w-16 lg:h-16"
+            className="p-2 w-10 h-10 rounded-lg bg-dark-green border-0 cursor-pointer text-white hover:bg-light-green sm:w-16 sm:h-16"
             onClick={() => setShowSidebar(true)}
           >
             <svg
-              className="w-6 h-6 lg:w-10 lg:h-10"
+              className="w-6 h-6 sm:w-10 sm:h-10"
               aria-hidden="true"
               xmlns="http://www.w3.org/2000/svg"
               fill="none"

@@ -53,10 +53,10 @@ export const ContactForm = () => {
 
   return (
     <form
-      className="sm:mx-auto flex flex-col"
+      className="mx-auto flex flex-col"
       onSubmit={handleSubmit(handleSendEmail)}
     >
-      <h4>Contact Form</h4>
+      <h2>Contact Form</h2>
       <label htmlFor="firstName" className="py-3">
         First Name:
       </label>
